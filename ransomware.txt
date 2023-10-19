@@ -1,21 +1,29 @@
-#--------------------------------------------------------#
-# Last Update: 30-11-2022 with 1.904 domains
-# MIT License: Copyright (c) 2022 ZangadoProjets
-# https://github.com/zangadoprojets/pi-hole-blocklist
-# Report if you find a problem or want to add an address.
-#--------------------------------------------------------#
+127.0.0.1 localhost
+127.0.0.1 localhost.localdomain
+127.0.0.1 local
+255.255.255.255 broadcasthost
+::1 localhost
+::1 ip6-localhost
+::1 ip6-loopback
+fe80::1%lo0 localhost
+ff00::0 ip6-localnet
+ff00::0 ip6-mcastprefix
+ff02::1 ip6-allnodes
+ff02::2 ip6-allrouters
+ff02::3 ip6-allhosts
+0.0.0.0 0.0.0.0
 
-25z5g623wpqpdwis.onion.to
-27c73bq66y4xqoh7.dorfact.at
-27lelchgcvs2wpm7.3lhjyx.top
-27lelchgcvs2wpm7.7jiff7.top
-27lelchgcvs2wpm7.7zv8o2.top
-27lelchgcvs2wpm7.9ildst.top
-27lelchgcvs2wpm7.adevf4.top
-27lelchgcvs2wpm7.ag082d.top
-27lelchgcvs2wpm7.apperloads.win
-27lelchgcvs2wpm7.asd3r3.top
-27lelchgcvs2wpm7.b7mciu.top
+0.0.0.0 25z5g623wpqpdwis.onion.to
+0.0.0.0 27c73bq66y4xqoh7.dorfact.at
+0.0.0.0 27lelchgcvs2wpm7.3lhjyx.top
+0.0.0.0 27lelchgcvs2wpm7.7jiff7.top
+0.0.0.0 27lelchgcvs2wpm7.7zv8o2.top
+0.0.0.0 27lelchgcvs2wpm7.9ildst.top
+0.0.0.0 27lelchgcvs2wpm7.adevf4.top
+0.0.0.0 27lelchgcvs2wpm7.ag082d.top
+0.0.0.0 27lelchgcvs2wpm7.apperloads.win
+0.0.0.0 27lelchgcvs2wpm7.asd3r3.top
+0.0.0.0 27lelchgcvs2wpm7.b7mciu.top
 27lelchgcvs2wpm7.bedrastic.bid
 27lelchgcvs2wpm7.bestfordownload.click
 27lelchgcvs2wpm7.bonbestal.asia
